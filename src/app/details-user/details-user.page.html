@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon name="arrow-back" style="zoom:2.5; color: rgb(241, 105, 13)"  (click)="goToUserList()"></ion-icon>
+    <ion-title style="color: rgb(241, 105, 13); text-align: center; font-size: 25px">User {{ id }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <img src="{{userPicture}}" alt="" width="100%">
+      <ion-row style="padding-left: 60px;">
+        <ion-col size="6" class="detailTitle">
+          Nom :
+        </ion-col>
+        <ion-col size="6" class="detail">
+          {{firstName}}
+        </ion-col>
+      </ion-row>
+  <hr width="100%">
+      <ion-row style="padding-left: 60px;" class="detailTitle">
+        <ion-col size="6">
+          Prenom :
+        </ion-col>
+        <ion-col size="6" class="detail">
+          {{lastName}}
+        </ion-col>
+      </ion-row>
+  <hr width="100%">
+
+      <ion-row style="padding-left: 60px;" class="detailTitle">
+        <ion-col size="6">
+          Sexe :
+        </ion-col>
+        <ion-col size="6" class="detail">
+          {{gender}}
+        </ion-col>
+      </ion-row>
+  <hr width="100%">
+
+      <ion-row style="padding-left: 60px;" class="detailTitle">
+        <ion-col size="6">
+          Age :
+        </ion-col>
+        <ion-col size="6" class="detail">
+          {{age}}
+        </ion-col>
+      </ion-row>
+  <hr width="100%">
+
+      <ion-row style="padding-left: 60px;" class="detailTitle">
+        <ion-col size="6">
+          Nationnalité :
+        </ion-col>
+        <ion-col size="6" class="detail">
+          {{nat}}
+        </ion-col>
+      </ion-row>
+  <hr width="100%">
+
+      <ion-row style="padding-left: 60px;" class="detailTitle">
+        <ion-col size="6">
+          Téléphone :
+        </ion-col>
+        <ion-col size="6" class="detail">
+          {{phone}}
+        </ion-col>
+      </ion-row>
+  <hr width="100%">
+
+      <ion-row style="padding-left: 60px;" class="detailTitle">
+        <ion-col size="6">
+          Ville :
+        </ion-col>
+        <ion-col size="6" class="detail">
+          {{ville}}
+        </ion-col>
+      </ion-row>
+  <hr width="100%">
+
+</ion-content>

@@ -1,0 +1,36 @@
+form{
+    border:1px solid silver ; 
+    margin: 0 auto ;
+    position:relative ; 
+    margin-top : 30% ;
+    width:70%;
+    text-align:center ; 
+    }
+    input{
+        margin-top:20px ; 
+    }
+    button{
+        margin-top:10px;
+        margin-bottom:10px;
+        background-color:green ;
+        color:white ; 
+        padding:10px;
+        border-color:green ;
+        border-radius:5px;
+        font-size:15px; 
+        
+    }
+    button:hover{
+        color:green ; 
+        border-color:black ; 
+        background-color:white ; 
+        font-weight: bold;
+        text-decoration :underline ; 
+    }
+    p{
+        background-color:green ; 
+        color:white ; 
+        padding:8px;
+        font-size:20px;
+        
+    }

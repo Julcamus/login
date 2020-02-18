@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="color: darkblue; text-align: center; font-size: 25px">Liste des Utilisateurs</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let index of UserData" (click)="goToUserDetails(index.id)">
+      <ion-avatar slot="start">
+        <img src="{{index.picture.large}}">
+      </ion-avatar>
+      <ion-label>
+        <h2 style="font-size: 20px">{{index.login.username}}</h2>
+        <h3>{{index.email}}</h3>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
